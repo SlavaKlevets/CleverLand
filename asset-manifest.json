@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/CleverLand/static/css/main.75f8c05f.css",
+    "main.js": "/CleverLand/static/js/main.7c02108f.js",
+    "static/js/787.65b8b534.chunk.js": "/CleverLand/static/js/787.65b8b534.chunk.js",
+    "static/media/image.png": "/CleverLand/static/media/image.bc1e41a1575d07dbf517.png",
+    "static/media/Cleverland.svg": "/CleverLand/static/media/Cleverland.e0c9af4517b7471a6baf01e12e49f7f2.svg",
+    "static/media/insta.svg": "/CleverLand/static/media/insta.0a9a2758cdfb4651c3afa669141a7eab.svg",
+    "static/media/icon-square-four.svg": "/CleverLand/static/media/icon-square-four.c4169dc8326af7c3eb0cedb422403f40.svg",
+    "static/media/Vk.svg": "/CleverLand/static/media/Vk.7b428242e31daf41222431c3ba3b176f.svg",
+    "index.html": "/CleverLand/index.html",
+    "static/media/Vector.svg": "/CleverLand/static/media/Vector.fd9d39a0a607b76b69eae4132297bd97.svg",
+    "static/media/In.svg": "/CleverLand/static/media/In.302cdda94595ff1cef3e1d3c0dfbda5d.svg",
+    "static/media/Facebook.svg": "/CleverLand/static/media/Facebook.f48191e628797b3b5109334219514fa9.svg",
+    "main.75f8c05f.css.map": "/CleverLand/static/css/main.75f8c05f.css.map",
+    "main.7c02108f.js.map": "/CleverLand/static/js/main.7c02108f.js.map",
+    "787.65b8b534.chunk.js.map": "/CleverLand/static/js/787.65b8b534.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75f8c05f.css",
+    "static/js/main.7c02108f.js"
+  ]
+}
