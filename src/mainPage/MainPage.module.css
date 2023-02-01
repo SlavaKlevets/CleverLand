@@ -1,0 +1,12 @@
+.body{
+    position: relative;
+    display: flex;
+    max-width: 100%;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+    margin: 0 auto;
+}

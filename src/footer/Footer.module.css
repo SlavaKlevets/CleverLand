@@ -1,0 +1,126 @@
+.wrapper{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    margin: 0 auto;
+    bottom: 0px;
+}
+.hrFooter{
+    position: relative;
+    height: 1px;
+    width: 80%;
+    background-color: #A7A7A7;
+    border: none;
+}
+.wrapperFooter{
+    position: relative;
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    bottom: auto;
+
+}
+
+.pravo{
+    position: relative;
+    width: 40%;
+
+}
+.social{
+    position: relative;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+.social img{
+    padding:15px;
+}
+.face{
+    position: relative;
+    width: 9.9px;
+    height: 18px;
+}
+.insta{
+    position: relative;
+    width: 18px;
+    height: 18px;
+}
+.vk{
+    position: relative;
+    width: 22px;
+    height: 13.2px;
+}
+.in{
+    position: relative;
+    width: 18px;
+    height: 19px;
+}
+@media (max-width:768px) {
+    .wrapper{
+        min-width: 300px;
+        height: auto;
+    }
+Link+Link{
+    padding:15px;
+}
+}
+@media (max-width:320px) {
+    .wrapper{
+        min-width: 300px;
+        height: auto;
+    }
+    .wrapperFooter {
+        position: relative;
+        display: block;
+        justify-content: center;
+        width: auto;
+    }
+    .hrFooter{
+        display: none;
+        position: relative;
+    }
+    .pravo{
+        position: relative;
+        width: 70%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .social{
+        width: auto;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .face{
+        position: relative;
+        width: 9.9px;
+        height: 18px;
+    }
+    .insta{
+        position: relative;
+        width: 18px;
+        height: 18px;
+    }
+    .vk{
+        position: relative;
+        width: 22px;
+        height: 13.2px;
+    }
+    .in{
+        position: relative;
+        width: 18px;
+        height: 19px;
+    }
+    .social img{
+        padding:10px;
+    }
+}

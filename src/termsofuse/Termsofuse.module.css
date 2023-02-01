@@ -1,0 +1,37 @@
+.wrapper{
+    position: relative;
+    width: 85%;
+    height: auto;
+    left:64px;
+    margin-right: 20px;
+}
+h5{
+    font-size: 16px;
+}
+.subsection{
+    max-width: 795px;
+    padding-left: 30px;
+}
+.subSubsection{
+    max-width: 765px;
+    padding-left: 50px;
+}
+
+@media(max-width:768px) {
+    .wrapper{
+        position: relative;
+        width: 75%;
+        height: auto;
+        left:64px;
+        margin-right: 20px;
+    }
+}
+@media(max-width:320px) {
+    .wrapper{
+        position: relative;
+        width: 85%;
+        height: auto;
+        left:16px;
+        margin-right: 20px;
+    }
+}

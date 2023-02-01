@@ -1,0 +1,193 @@
+.header{
+    position: relative;
+    max-width: 1440px;
+    height: 105px;
+    display: flex;
+    margin-bottom: 27px;
+}
+.logoWrapper{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+.headerLogo{
+    position: absolute;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: #6E76F1;
+    right: 84.6%;
+    top:40px;
+    margin-right: 16px;
+    border-radius: 8px;
+}
+.logoSvg{
+    position: absolute;
+    width: 34.04px;
+    height: 27.79px;
+    left: 5.96px;
+    top:6.1px;
+}
+.cleverland{
+    position: absolute;
+    height: 15.67px;
+    width:111px;
+    padding-bottom: 0px;
+    top:53px;
+    left: 14.7%;
+    font-family: 'Montserrat',sans-serif;
+    margin-right: 100px;
+}
+.biblioteca{
+    position: absolute;
+    left: 31.5%;
+    top: 41px;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.1px;
+    color: #363636;
+    padding: 0px;
+    margin: 0px;
+}
+.hello{
+    position: absolute;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: 0.1px;
+    color: #363636;
+    top: 38px;
+    right: 16%;
+    padding-right:18px;
+}
+.avatar{
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    background: url(../images/avatar.png);
+    background-size: 100%;
+    border-radius: 50%;
+    right: 11.5%;
+    top:32px;
+    border: none;
+}
+.tile{
+    display: none;
+    position: relative;
+    left: 66px;
+    top:43px;
+    width: 38px;
+    height: 38px;
+    justify-content: space-around;
+    align-items: center;
+    margin:0px;
+    cursor: pointer;
+}
+.span1{
+    width:26.67px;
+    height:2.67px;
+    top:6.67px;
+    left:2.67px;
+    position: absolute;
+    right: 11.08px;
+    bottom: 70.83%;
+    background: #A7A7A7;
+}
+.span2{
+    width: 26.67px;
+    height:2.67px;
+    position: absolute;
+    left:2.67px;
+    right: 11.08px;
+    top:14.67px;
+    bottom: 45.83%;
+    background: #A7A7A7;
+}
+.span3{
+    width: 26.67px;
+    height:2.67px;
+    position: absolute;
+    left:2.67px;
+    right: 11.08px;
+    top: 22.67px;
+    bottom: 20.83%;
+    background: #A7A7A7;
+}
+.menu{
+    display: flex;
+    width: 300px;
+}
+@media (max-width:768px){
+    .header{
+        height: 96px;
+        margin:0px;
+    }
+    .headerLogo{
+        display: none
+    }
+    .cleverland{
+       display: none;
+    }
+    .biblioteca{
+        top:32px;
+        left:120px;
+    }
+    .tile{
+        position: relative;
+        top:35px;
+        display: block;
+    }
+    .hello{
+        display: none;
+    }
+    .avatar{
+        display: none;
+    }
+
+}
+@media (max-width:320px){
+    .header{
+        height: 76px;
+    }
+    .biblioteca{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        position: absolute;
+        left:60px;
+    }
+    .tile{
+        position: relative;
+        right:26px;
+        top:30px;
+        width: 38px;
+    }
+    .span1{
+        position: absolute;
+        width:20px;
+        height:2px;
+        top:6.67px;
+        left:-40px;
+    }
+    .span2{
+        width:20px;
+        height:2px;
+        position: absolute;
+        left:-40px;
+
+    }
+    .span3{
+        width:20px;
+        height:2px;
+        position: absolute;
+        left:-40px;
+
+    }
+
+}

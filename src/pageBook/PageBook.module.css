@@ -1,0 +1,782 @@
+.wrapperPageBook{
+    width: 1440px;
+    height: 100%;
+    position: relative;
+    padding-bottom: 300px;
+}
+.way {
+    display: none;
+    height: 78px;
+}
+.imageBlock {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.pictureBlock{
+    position: relative;
+    width: 43%;
+    height: auto;
+}
+
+.mainPicture{
+    position: absolute;
+    width: 72%;
+    right:1.4%;
+    top:42px;
+    border-radius:10px;
+}
+
+.dataBook{
+    width: 57%;
+    position: relative;
+}
+.bookAuthorName{
+    position: relative;
+    width:80%;
+    right: 3%;
+}
+
+.pageName{
+    position: relative;
+    width:80%;
+    padding: 0px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.1px;
+    color: #363636;
+    top:10px;
+    left:7.5%;
+    right: 20px;
+}
+
+.author{
+    position: relative;
+    color: #A7A7A7;
+    width: 100%;
+    height: 28px;
+    top: 0px;
+    left: 7.5%;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 28px;
+    align-items: center;
+    letter-spacing: 0.1px;
+    flex: none;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+.but{
+    position: relative;
+    width: 350px;
+    height: 52px;
+    top: 3px;
+    left: 3.5%;
+    margin: 0px 21px ;
+    background: linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%);
+    border-radius: 30px;
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    align-items: center;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    border: none;
+}
+.wrapperObook{
+    position: relative;
+    width: 100%;
+}
+.obook{
+    position: relative;
+    top:35px;
+    left:20px;
+    max-width: 79px;
+    height: 28px;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    align-items: center;
+    letter-spacing: 0.1px;
+    color: #363636;
+    flex: none;
+}
+
+.book{
+    position: relative;
+    top:38px;
+    left: 20px;
+    width: 70%;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #363636;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    padding-right: 20px;
+}
+.book2{
+    position: relative;
+    top:48px;
+    left: 20px;
+    width: 70%;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #363636;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    padding-right: 20px;
+}
+
+.commentsBlocks{
+    width: 100%;
+    position: relative;
+}
+.commentsBlocksWrapper{
+    max-width: 100%;
+    position: relative;
+}
+
+.rating{
+    position: relative;
+    max-width: 82px;
+    margin: 71px 165px 27px 164px;
+    font-family: 'Montserrat',sans-serif;
+    padding: 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #363636;
+}
+
+.stars{
+    width: 220px;
+    margin-left: 155px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.star{
+    margin:8px;
+}
+.numberRating{
+    position: relative;
+    left: 10px;
+    max-width: 29px;
+    height: 28px;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #363636;
+    margin-top: 8px;
+}
+.podrInformation{
+    position: relative;
+    top:58px;
+}
+.information{
+    max-width: 245px;
+    height: 28px;
+    font-family: 'Montserrat',sans-serif;
+    margin-left: 165px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1px;
+    color: #363636;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.table{
+    position: relative;
+    max-width: 70%;
+    display: flex;
+    left: 132px;
+    top:15px;
+    height: 202px;
+    justify-content: space-around;
+}
+.table2{
+    display: none
+}
+
+.colum1{
+    position: relative;
+    left: 30px;
+    width:55%;
+}
+
+.colum2{
+    position: relative;
+    width: 30%;
+
+}
+
+.colum3{
+    position: relative;
+    width:45%;
+    left:75px;
+}
+
+.colum4{
+    position: relative;
+    width: 50%;
+    left:75px;
+    padding-right: 20px;
+ }
+
+.table p{
+    max-width: 80%;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #A7A7A7;
+}
+.hrLine{
+    max-width:350px;
+    height: 1px;
+    background-color: #EBEBEB;
+    border: none;
+    position: relative;
+    padding: 0px;
+    margin: 0px 165px;
+}
+.hrLine2{
+    max-width:350px;
+    height: 1px;
+    background-color: #EBEBEB;
+    border: none;
+    position: relative;
+    padding: 0px;
+    margin: 0px 0px;
+}
+.comments{
+    width: 100%;
+    position: relative;
+    top:98px;
+    right: 20px;
+}
+.commentsWrap{
+    max-width: 60%;
+    position: relative;
+    left: 175px;
+    height: auto;
+}
+.otzuv{
+    position: relative;
+    max-width: 20%;
+}
+.otzuvH5{
+    max-width: 20%;
+}
+.commentsName{
+    position: relative;
+    left: 24px;
+    max-width: 40%;
+}
+.commentsDate{
+    position: relative;
+    left: 34px;
+    max-width: 50%;
+}
+.commentsStars{
+    position: relative;
+    max-width: 20%;
+}
+.commentsComent{
+    position: relative;
+    top:0px;
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    max-width: 80%;
+    font-family: 'Montserrat',sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #363636;
+}
+.wrapComments{
+    position: relative;
+    max-width: 100%;
+    margin: 23px 0px;
+}
+.wrapComment{
+    max-width: 100%;
+    display: flex;
+}
+
+.but2{
+    position: relative;
+    left:-10px;
+    top:23px;
+    width: 350px;
+    height: 52px;
+    background: linear-gradient(233.73deg, #F83600 -16.08%, #F9D423 327.37%);
+    border-radius: 30px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    cursor: pointer;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////*/
+@media (max-width:768px){
+    .wrapperPageBook{
+        max-width: 100%;
+        height: 100%;
+        position: relative;
+        padding-bottom:180px;
+    }
+    .pictureBlock{
+        position: relative;
+        width: 30%;
+        height: auto;
+    }
+    .mainPicture{
+        width: 136px;
+        height: 198px;
+        right:11%;
+        top:53px;
+        border-radius:3px;
+    }
+    .bookAuthorName{
+        position: relative;
+        width:100%;
+        right: 3%;
+    }
+    .pageName{
+        width:100%;
+        font-size: 24px;
+        top:30px;
+        left:5%;
+        font-weight: 700;
+        line-height: 30px;
+    }
+    .author{
+        color: #A7A7A7;
+        width: 100%;
+        height: 28px;
+        top: 32px;
+        left: 5%;
+        font-size: 14px;
+    }
+    .but{
+        width: 306px;
+        top: 35px;
+        left: 0%;
+        font-size: 16px;
+    }
+    .wrapperObook{
+        position: relative;
+        max-width: 650px;
+        right: 2px;
+        left: -200px;
+    }
+    .obook{
+        width: 100%;
+        top:56px;
+        left:39px;
+        font-size: 16px;
+    }
+
+    .book{
+        margin-left: 40px;
+        top:58px;
+        width: 140%;
+        font-size: 16px;
+    }
+    .book2{
+        margin-left: 40px;
+        top:58px;
+        width: 140%;
+        font-size: 16px;
+    }
+/*****************************************************/
+    .rating{
+        margin: 71px 165px 27px 164px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 28px;
+        align-items: center;
+        left: -13.5%;
+        top:54px;
+    }
+
+    .stars{
+        position: relative;
+        left: -14%;
+        top:53px;
+        display: flex;
+
+    }
+    .star{
+        margin:8px;
+    }
+    .numberRating{
+        left: 17px;
+        top:-5px;
+        font-size: 18px;
+    }
+    .podrInformation{
+        position: relative;
+        top:98px;
+        left: -13.5%;
+    }
+    .information{
+        max-width: 245px;
+        font-size: 16px;
+        position: relative;
+        top:-25px;
+    }
+
+    .table{
+        position: relative;
+        max-width: 70%;
+        display: flex;
+        left: 135px;
+        top:-14px;
+        height: 202px;
+        justify-content: space-around;
+    }
+    .table2{
+        display: none
+    }
+    .colum1{
+        position: relative;
+        left: 30px;
+        width:60%;
+        margin-right: 5px;
+    }
+    .colum2{
+        position: relative;
+        width: 30%;
+
+    }
+    .colum3{
+        position: relative;
+        width:40%;
+        left:75px;
+        margin-right: 5px;
+    }
+    .colum4{
+        position: relative;
+        width: 50%;
+        left:75px;
+        padding-right: 20px;
+    }
+    .table p{
+        max-width: 80%;
+        font-size: 14px;
+    }
+    .hrLine{
+        max-width:350px;
+    }
+    .hrLine2{
+        max-width:350px;
+    }
+    .comments{
+        width: 80%;
+        position: relative;
+        top:140px;
+        left: 2px;
+    }
+    .commentsWrap{
+        max-width: 100%;
+        position: relative;
+        left: 64px;
+    }
+    .otzuv{
+        position: relative;
+        max-width: 20%;
+    }
+    .otzuvH5{
+        max-width: 20%;
+    }
+    .commentsName{
+        position: relative;
+        left: 24px;
+        max-width: 40%;
+    }
+    .commentsDate{
+        position: relative;
+        left: 34px;
+        max-width: 50%;
+    }
+    .commentsStars{
+        position: relative;
+        max-width: 20%;
+    }
+    .commentsComent{
+        font-size: 16px;
+    }
+    .wrapComments{
+        max-width: 100%;
+    }
+    .wrapComment{
+        max-width: 100%;
+    }
+    .but2{
+        position: relative;
+        left:-10px;
+        width: 100%;
+        height: 52px;
+    }
+}
+@media(max-width: 320px) {
+    .wrapperPageBook{
+        max-width: 320px;
+        height: 100%;
+        position: relative;
+        justify-content: center;
+        margin:  0 auto;
+        padding-bottom: -290px;
+    }
+    .imageBlock{
+        display: block;
+    }
+    .pictureBlock{
+        position: relative;
+        justify-content: center;
+        margin:  0 auto;
+        width: 30%;
+        height: auto;
+    }
+    .mainPicture{
+        width: 136px;
+        height: 198px;
+        top:53px;
+        border-radius:3px;
+    }
+    .bookAuthorName{
+        position: relative;
+        width:100%;
+        left: 16px;
+        right: 3%;
+        top:230px;
+    }
+    .pageName{
+        width:100%;
+        font-size: 24px;
+        top:35px;
+        left:5%;
+        font-weight: 700;
+        line-height: 30px;
+    }
+    .table2{
+        position: relative;
+        width: 40%;
+        display: flex;
+        left:180px;
+        height: auto;
+    }
+    .colum23{
+        margin-left: 15px;
+    }
+    .author{
+        color: #A7A7A7;
+        width: 100%;
+        height: 28px;
+        top: 32px;
+        left: 5%;
+        font-size: 14px;
+    }
+    .but{
+        width: 288px;
+        top: 35px;
+        font-size: 12px;
+        margin: 0px;
+
+    }
+    .wrapperObook{
+        position: relative;
+        max-width:320px;
+        right: 2px;
+        left:0px;
+        height: 500px;
+        top: 20px;
+    }
+    .obook{
+        position: relative;
+        width: 100%;
+        top:230px;
+        left:39px;
+        height: auto;
+        font-size: 16px;
+    }
+    .dataBookP{
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .book{
+        position: absolute;
+        top:260px;
+        left: 40px;
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        font-size: 12px;
+        height: 300px;
+    }
+    .book2{
+        position: absolute;
+        left: 40px;
+        padding: 0px;
+        margin: 0px;
+        top:640px;
+        padding: 0px;
+        font-size: 12px;
+    }
+    .commentsBlocks{
+        position: relative;
+        top:180px;
+        left: -100px;
+    }
+    .rating{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 28px;
+        align-items: center;
+        left: 0%;
+    }
+
+    .stars{
+        position: relative;
+        right:6%;
+        top:30px;
+        display: flex;
+
+    }
+    .star{
+        margin:8px;
+    }
+    .numberRating{
+        left: 17px;
+        top:-5px;
+        font-size: 18px;
+    }
+    .podrInformation{
+        position: relative;
+        top:98px;
+        left: -13.5%;
+    }
+    .information{
+        max-width: 245px;
+        font-size: 16px;
+        position: relative;
+        top:-25px;
+    }
+    .table{
+       display: none;
+    }
+    .table p{
+        max-width: 80%;
+        font-size: 14px;
+    }
+    .hrLine{
+        max-width:350px;
+    }
+    .hrLine2{
+        max-width:350px;
+    }
+    .comments{
+        width: 80%;
+        position: relative;
+        top:250px;
+        left: 50px;
+    }
+    .commentsWrap{
+        position: absolute;
+        max-width: 100%;
+        left: 64px;
+        top:0px;
+    }
+    .otzuv{
+        position: absolute;
+        max-width: 20%;
+        top:-180px
+
+    }
+    .otzuvH5{
+        width: 40%;
+    }
+    .commentsName{
+        position: relative;
+        left: 24px;
+        max-width: 40%;
+    }
+    .commentsDate{
+        position: relative;
+        left: 34px;
+        max-width: 50%;
+    }
+    .commentsStars{
+        position: relative;
+        max-width: 20%;
+    }
+    .commentsComent{
+        font-size: 16px;
+    }
+    .wrapComments{
+        max-width: 100%;
+    }
+    .wrapComment{
+        max-width: 100%;
+    }
+
+    .but2{
+        position: relative;
+        width: 288px;
+        height: 52px;
+        font-size: 12px;
+    }
+
+
+}

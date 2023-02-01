@@ -1,0 +1,232 @@
+.elementwrapper{
+    display: block;
+    position: relative;
+    color: #363636;
+    width: 190px;
+    height: 470px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(191, 196, 201, 0.2), 0px 3px 4px rgba(191, 196, 201, 0.18), 0px 1px 5px rgba(191, 196, 201, 0.24);
+    border-radius: 10px;
+    order: 1;
+    margin: 10px 20px;
+    justify-content: center;
+}
+.wrapImage{
+    position: relative;
+    justify-content:center;
+    margin: 20px;
+    width: auto;
+}
+
+.imagesCard{
+    position: relative;
+    max-width: 150px;
+    padding: 0px;
+    margin-top:16px;
+    right: 0px;
+}
+.cats{
+    margin: 8px 8px 0px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 150px;
+    height: 200px;
+    box-sizing: border-box;
+    background: #F9F9FA;
+    border: 1px solid #A7A7A7;
+    border-radius: 10px;
+}
+.catsImg{
+    position: relative;
+    padding: 0px;
+    margin:0 auto;
+}
+
+.star{
+    position: relative;
+    width: 20px;
+    height: 19px;
+    margin: 5px;
+}
+.but3{
+    position: absolute;
+    width: 166px;
+    height: 40px;
+    top: 414px;
+    margin: 0px 12px 16px 12px;
+    background: linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%);
+    border-radius: 20px;
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    align-items: center;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    border: none;
+}
+.cats{
+    margin: 8px 8px 0px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 150px;
+    height: 200px;
+    box-sizing: border-box;
+    background: #F9F9FA;
+    border: 1px solid #A7A7A7;
+    border-radius: 10px;
+}
+.catsImg{
+    position: relative;
+    max-width: 150px;
+    padding: 0px;
+    margin:0 auto;
+}
+.cardName{
+    width: 174px;
+    height: 54px;
+    margin: 8px;
+    top: 306px;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1px;
+    color: #363636;
+}
+.authorName{
+    width: 174px;
+    height: 18px;
+    margin: 8px;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1px;
+    color: #727272;
+}
+@media (max-width:768px){
+    .elementwrapper{
+        display: block;
+        width:190px;
+        height:470px;
+        margin:25px 18px;
+        justify-content: center;
+    }
+    .imagesCard{
+        max-width: 150px;
+        height: auto;
+        position: relative;
+
+    }
+    .catsImg{
+        position: relative;
+        max-width: 150px;
+        padding: 0px;
+        right: 0px;
+    }
+    .cardName{
+        height: 36px;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 18px;
+        position: relative;
+        top:20px;
+    }
+    .authorName{
+        position: relative;
+        top:28px;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+@media (max-width:320px){
+    .elementwrapper{
+        display: block;
+        position: relative;
+        width: 288px;
+        height: 470px;
+        justify-content: center;
+        margin: 10px;
+        padding: 0;
+    }
+    .imagesCard{
+        position: relative;
+        max-width: 150px;
+        margin-top: 16px;
+        right: 0px;
+
+    }
+    .catsImg{
+        position: relative;
+        width: auto;
+        height: auto;
+        padding: 0px;
+        right: 0px;
+    }
+    .cats{
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .wrapImage{
+        justify-content: center;
+        margin: 0 auto;
+    }
+    a{
+        display: block;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+      .star{
+        position: relative;
+        top:20px;
+    }
+    .cardName{
+        width: 256px;
+        height: 54px;
+        font-family: 'Montserrat',sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.1px;
+        color: #363636;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .authorName{
+        position: relative;
+        top:28px;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .but3{
+        position: absolute;
+        width: 256px;
+        height: 40px;
+        top: 414px;
+        right:0px;
+        margin: 0px 12px 16px 12px;
+    }
+
+
+}
